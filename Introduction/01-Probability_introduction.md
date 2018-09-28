@@ -35,3 +35,4 @@ plt.title("Histogram of coin flip sum when flipping a coin %d times"%k)
 plt.grid(True)
 plt.show()
 ```
+![](/Images/tici.png)
