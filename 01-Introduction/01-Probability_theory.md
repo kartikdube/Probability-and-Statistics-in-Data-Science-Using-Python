@@ -36,3 +36,8 @@ plt.grid(True)
 plt.show()
 ```
 ![](/Images/t1c1.png)
+
+Note that the sum ![](http://latex.codecogs.com/png.latex?S_%7B10000%7D) is not exactly 0, it is only close to 0.
+
+Using probability theory we can calculate how small is ![](http://latex.codecogs.com/png.latex?%5Cleft%20%7C%20S_%7Bk%7D%20%5Cright%20%7C)
+
