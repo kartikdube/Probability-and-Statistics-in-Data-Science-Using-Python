@@ -74,3 +74,16 @@ print(sorted(A))
 ```
 [9, -6, 1, 2, 3, 4, 7, 8, 10]
 
+### Elements of sets must be immutable in python
+
+```
+#elements can be tuples
+set([(1,2),(1,3),(3,1)])
+```
+{(1, 2), (1, 3), (3, 1)}
+
+```
+# but cannot be lists
+set([[1,2],[1,3],[3,1]])
+```
+**TyperError Traceback**
