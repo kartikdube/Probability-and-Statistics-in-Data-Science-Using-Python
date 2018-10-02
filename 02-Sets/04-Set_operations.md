@@ -3,19 +3,18 @@
 There are several fundamental operations for constructing new sets from given sets. 
     Commutative laws:
 
-            A ∪ B = B ∪ A {\displaystyle A\cup B=B\cup A} {\displaystyle A\cup B=B\cup A}
-            A ∩ B = B ∩ A {\displaystyle A\cap B=B\cap A} {\displaystyle A\cap B=B\cap A}
+            A ∪ B = B ∪ A 
+            A ∩ B = B ∩ A 
 
    Associative laws:
 
-            ( A ∪ B ) ∪ C = A ∪ ( B ∪ C ) {\displaystyle (A\cup B)\cup C=A\cup (B\cup C)} {\displaystyle (A\cup B)\cup C=A\cup (B\cup C)}
-            ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) {\displaystyle (A\cap B)\cap C=A\cap (B\cap C)} {\displaystyle (A\cap B)\cap C=A\cap (B\cap C)}
+            ( A ∪ B ) ∪ C = A ∪ ( B ∪ C ) }
+            ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) 
 
    Distributive laws:
 
-            A ∪ ( B ∩ C ) = ( A ∪ B ) ∩ ( A ∪ C ) {\displaystyle A\cup (B\cap C)=(A\cup B)\cap (A\cup C)} A\cup (B\cap C)=(A\cup B)\cap (A\cup C)
-            A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C ) {\displaystyle A\cap (B\cup C)=(A\cap B)\cup (A\cap C)} {\displaystyle A\cap (B\cup C)=(A\cap B)\cup (A\cap C)}
-
+            A ∪ ( B ∩ C ) = ( A ∪ B ) ∩ ( A ∪ C ) 
+            A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C ) 
 ### Unions
 Two sets can be "added" together. The union of A and B, denoted by A ∪ B, is the set of all things that are members of either A or B. The union of A and B, denoted by A ∪ B, is the set of all things that are members of either A or B. 
 
@@ -60,7 +59,7 @@ Two sets can also be "subtracted". The relative complement of B in A (also calle
 
 In certain settings all sets under discussion are considered to be subsets of a given universal set U. In such cases, U \ A is called the absolute complement or simply complement of A, and is denoted by A′.
 
-        A′ = U \ A
+ A′ = U \ A
 
 Examples:
   - {1, 2} \ {1, 2} = ∅.
