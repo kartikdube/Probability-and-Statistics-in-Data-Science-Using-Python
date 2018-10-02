@@ -24,7 +24,7 @@ print(len(A)**k)
 ```
 9
 
-Next we calculate and graph the exponential 2x2x and the polynomials xx and x2x2. Move the slider to see that the exponential grows much faster than the polynomials.
+Next we calculate and graph the exponential 2x2x and the polynomials xx and x2x2. We see that the exponential grows much faster than the polynomials.
 
 ```
 import matplotlib.pyplot as plt
