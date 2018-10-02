@@ -1,6 +1,20 @@
 # Set Operations
 
 There are several fundamental operations for constructing new sets from given sets. 
+    Commutative laws:
+
+            A ∪ B = B ∪ A {\displaystyle A\cup B=B\cup A} {\displaystyle A\cup B=B\cup A}
+            A ∩ B = B ∩ A {\displaystyle A\cap B=B\cap A} {\displaystyle A\cap B=B\cap A}
+
+   Associative laws:
+
+            ( A ∪ B ) ∪ C = A ∪ ( B ∪ C ) {\displaystyle (A\cup B)\cup C=A\cup (B\cup C)} {\displaystyle (A\cup B)\cup C=A\cup (B\cup C)}
+            ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) {\displaystyle (A\cap B)\cap C=A\cap (B\cap C)} {\displaystyle (A\cap B)\cap C=A\cap (B\cap C)}
+
+   Distributive laws:
+
+            A ∪ ( B ∩ C ) = ( A ∪ B ) ∩ ( A ∪ C ) {\displaystyle A\cup (B\cap C)=(A\cup B)\cap (A\cup C)} A\cup (B\cap C)=(A\cup B)\cap (A\cup C)
+            A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C ) {\displaystyle A\cap (B\cup C)=(A\cap B)\cup (A\cap C)} {\displaystyle A\cap (B\cup C)=(A\cap B)\cup (A\cap C)}
 
 ### Unions
 Two sets can be "added" together. The union of A and B, denoted by A ∪ B, is the set of all things that are members of either A or B. The union of A and B, denoted by A ∪ B, is the set of all things that are members of either A or B. 
