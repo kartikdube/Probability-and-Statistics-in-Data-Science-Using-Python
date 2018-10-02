@@ -8,7 +8,7 @@ There are several fundamental operations for constructing new sets from given se
 
    Associative laws:
 
-            ( A ∪ B ) ∪ C = A ∪ ( B ∪ C ) }
+            ( A ∪ B ) ∪ C = A ∪ ( B ∪ C ) 
             ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) 
 
    Distributive laws:
