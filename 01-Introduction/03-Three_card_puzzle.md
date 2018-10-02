@@ -52,3 +52,4 @@ print(counts)
 ### Alternative argument 
 
 If we pick a card at random 2/3 of the time we pick a card where the two sides have the same color, and only 1/3 where the color is different.
+  - The original argument also sounds convincing, but is wrong.
