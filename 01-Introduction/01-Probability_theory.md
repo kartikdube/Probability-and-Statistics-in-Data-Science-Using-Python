@@ -41,3 +41,27 @@ Note that the sum ![](http://latex.codecogs.com/png.latex?S_%7B10000%7D) is not 
 
 Using probability theory we can calculate how small is ![](http://latex.codecogs.com/png.latex?%5Cleft%20%7C%20S_%7Bk%7D%20%5Cright%20%7C)
 
+```
+from math import sqrt
+k=1000
+n=1000
+fig = plt.figure(figsize=[13,3.5])
+for j in range(2,5):
+    k=10**j
+    counts=generate_counts(k=k,n=100)
+    plt.subplot(130+j-1)
+    plt.hist(counts,bins=10);
+    plt.xlim([-k,k])
+    d=4*sqrt(k)
+    plt.plot([-d,-d],[0,30],'r')
+    plt.plot([+d,+d],[0,30],'r')
+    plt.grid(True)
+    plt.title('%d flips, bound=+-%6.1f'%(k,d))
+    plt.show()
+```
+![](/Images/t1c2.png)
+
+We observer that ![](http://latex.codecogs.com/png.latex?%5Cleft%20%7C%20S_%7Bk%7D%20%5Cright%20%7C) = ![](http://latex.codecogs.com/png.latex?4%5Csqrt%7Bk%7D) , which is smaller than ![](http://latex.codecogs.com/png.latex?2*10%5E%7B-8%7D) which is 0.000002%.
+
+So, ![](http://latex.codecogs.com/png.latex?%5Cleft%20%7C%20S_%7Bk%7D%20%5Cright%20%7C) is almost always in range of [-![](http://latex.codecogs.com/png.latex?4%5Csqrt%7Bk%7D),+![](http://latex.codecogs.com/png.latex?4%5Csqrt%7Bk%7D)]
+
