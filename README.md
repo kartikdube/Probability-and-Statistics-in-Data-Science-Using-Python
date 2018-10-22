@@ -6,6 +6,7 @@
   - Sets
   - Counting
   - Probability 
+  - Combinatorics
   - Conditional Probability
   - Random variable and variance
   - Discrete distribution Families
