@@ -1,7 +1,5 @@
 # Probability and Statistics in Data Science Using Python
-```
-[Working: will be complete by 25/10/18]
-```
+
   - Introduction
   - Sets
   - Counting
